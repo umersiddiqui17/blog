@@ -13,7 +13,18 @@ export default function Page() {
   return (
     <>
       <AuthorLayout content={mainContent}>
-        <MDXLayoutRenderer code={author.body.code} />
+        <div>
+          Welcome to my blog! I'm Muhammad Umer Siddiqui aka Tails Azimuth, a passionate Next.js
+          developer and a proud graduate of the Presidential Initiative for Artificial Intelligence
+          & Computing (PIAIC). My journey through PIAIC has fueled my enthusiasm for emerging
+          technologies, and now, I'm dedicated to sharing that knowledge with others. This blog is a
+          space where I explore and explain the latest trends, tools, and innovations in tech.
+          Whether you're a budding developer, a tech enthusiast, or just curious about the digital
+          world, you'll find valuable insights and practical advice here. Join me on this exciting
+          journey as we delve into the fascinating world of technology together. Let's learn, grow,
+          and stay ahead in this ever-evolving field!
+        </div>
+        {/* <MDXLayoutRenderer code={author.body.code} /> */}
       </AuthorLayout>
     </>
   )
